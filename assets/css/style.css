@@ -476,8 +476,18 @@ section {
   # Funciones
   --------------------------------------------------------------*/
 
-#funciones .funciones {
-    padding: 20px;
+#funciones .grid-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 1rem;
+}
+
+#funciones .second-title {
+    background-color: #28a745;
+}
+
+#funciones .grid-content img {
+    width: 50px;
 }
 
 #funciones .center {
@@ -486,11 +496,14 @@ section {
 }
 
 .funciones .center img {
-    width: 80%;
+    width: 100%;
     margin-top: -50px;
 }
 
-.info_funciones {
+#funciones .text-beneficio p {
+    color: #003785;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -525,32 +538,6 @@ section {
     font-size: 14px;
 }
 
-@media (max-width: 1024px) {
-    .why-us .content,
-    .why-us .accordion-list {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 992px) {
-    .why-us .img {
-        min-height: 400px;
-    }
-    .why-us .content {
-        padding-top: 30px;
-    }
-    .why-us .accordion-list {
-        padding-bottom: 30px;
-    }
-}
-
-@media (max-width: 575px) {
-    .why-us .img {
-        min-height: 200px;
-    }
-}
-
 
 /*--------------------------------------------------------------
   # Beneficios
@@ -562,16 +549,15 @@ section {
     gap: 2rem;
 }
 
-.grid-element .img-beneficio img {
+#beneficios .grid-element .img-beneficio img {
     width: 35px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.grid-element .text-beneficio {
+#beneficios .grid-element .text-beneficio {
     margin-top: 20px;
     text-align: center;
-    background-color: black;
 }
 
 
