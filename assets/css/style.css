@@ -476,19 +476,8 @@ section {
   # Funciones
   --------------------------------------------------------------*/
 
-#funciones .grid-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
-    gap: 1rem;
-}
-
-#funciones .second-title {
-    background-color: #28a745;
-    color: white;
-}
-
-#funciones .grid-content img {
-    width: 50px;
+#funciones .funciones {
+    padding: 20px;
 }
 
 #funciones .center {
@@ -497,14 +486,11 @@ section {
 }
 
 .funciones .center img {
-    width: 100%;
+    width: 80%;
     margin-top: -50px;
 }
 
-#funciones .text-beneficio p {
-    color: #003785;
-    font-size: 15px;
-    font-weight: 600;
+.info_funciones {
     text-align: center;
 }
 
@@ -546,7 +532,7 @@ section {
 
 #beneficios .grid-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
 
