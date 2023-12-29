@@ -32,7 +32,7 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     loop:true,
     autoplay: {
-      delay: 2500,
+      delay: 3500,
       disableOnInteraction: false,
     },
     pagination: {
