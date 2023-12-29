@@ -266,76 +266,62 @@
   --------------------------------------------------------------*/
     #hero {
         margin: 0;
-        padding: 0;
-        height: 100vh;
-        justify-content: center;
-        background: url('../img/banner/Portada_de_prueba.png');
+        padding: 0;      
+    }
+
+
+      #hero .swiper-slide img{
        background-size: cover;
-        
-    }
-
-
-    /* #hero .slide {
-        width: 500%;
-        height: 500px;
-        background: url('../img/banner/Portada_de_prueba.png');
-    }
-
-    #hero .slide input {
-        display: none;
-    }
-
-    #hero .st {
-        width: 20%;
-        transition: 2s;
+       width: 100%;
        
-    }
+      }
 
-    #hero .st img {
-        width: 100%;
-
-    }
     
 
-    @media (max-width: 991px) {
+    @media (max-width: 320px) {
    
 
-        #hero .st {
-            text-align: center;
-            background-size: cover;
-        }
-
         #hero  img {
+            margin-top: 50px;
             max-width: 100%;
         }
     }
 
-    @media (max-width: 768px) {
-        #hero h1 {
-            font-size: 28px;
-            line-height: 36px;
-        }
-
-        #hero h2 {
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 30px;
-        }
-
-        #hero .hero-img img {
-            background-size: cover;
-        }
-    }
+   
 
     @media (max-width: 575px) {
         #hero  img {
             width: 100%;
             background-size: cover;
             height: auto;
+            margin-top: 45px;
         }
 
      
-    } */
+    } 
+
+
+    @media (max-width: 768px) {
+        #hero  img {
+            width: 100%;
+            background-size: cover;
+            height: auto;
+            margin-top: 45px;
+        }
+
+     
+    }
+    
+    @media (max-width: 992px) {
+        #hero  img {
+            width: 100%;
+            background-size: cover;
+            height: auto;
+            margin-top: 45px;
+        }
+
+     
+    } 
 
     /*--------------------------------------------------------------
   # Sections General
@@ -369,34 +355,7 @@
         color: #66c00b;
     }
 
-    /*--------------------------------------------------------------
-  # Clients
-  --------------------------------------------------------------*/
-
-    .clients {
-        padding: 12px 0;
-        text-align: center;
-    }
-
-    .clients img {
-        max-width: 45%;
-        transition: all 0.4s ease-in-out;
-        display: inline-block;
-        padding: 15px 0;
-        filter: grayscale(100);
-    }
-
-    .clients img:hover {
-        filter: none;
-        transform: scale(1.1);
-    }
-
-    @media (max-width: 768px) {
-        .clients img {
-            max-width: 40%;
-        }
-    }
-
+  
     /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
@@ -583,15 +542,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videos .swiper-container
+{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#videos .swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height:400px;
 }
 
 
-#video .container{
-    max-width: 124rem;
-    padding: 0 1rem;
-    margin:  0 auto;
+@media (max-width: 320px) {
+
+    #videos .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        background-color: #fff;
+    
+
+    }
+    
+    #videos .swiper-slide video{
+        background-position: center;
+        background-size: cover;
+width: 80%;
+    }
+
+    #videos  .swiper-button-next,.swiper-button-prev{
+    margin-top: -30px;
+    width: 10px;
+    height: 10px;
+    }
+    
 }
 
+
+@media (max-width: 640px) {
+    #videos .swiper-slide{
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height:240px;
+    }
+}
+
+@media (max-width: 720px) {
+    #videos .swiper-slide{
+        background-position: center;
+        background-size: cover;
+        width: 430px;
+        height:260px;
+    }
+}
     /*--------------------------------------------------------------
   # Frequently Asked Questions
   --------------------------------------------------------------*/
