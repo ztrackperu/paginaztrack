@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
     body {
-        font-family: "Open Sans", sans-serif;
+        font-family: "Montserrat", sans-serif;
         color: #444444;
     }
 
@@ -264,8 +264,9 @@
     /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
-    #hero {
+    /* #hero {
         margin: 0;
+
         padding: 0;      
     }
 
@@ -273,6 +274,30 @@
       #hero .swiper-slide img{
        background-size: cover;
        width: 100%;
+
+        padding: 0;
+        height: 100vh;
+        justify-content: center;
+        background: url('../img/banner/Portada_de_prueba.png');
+       background-size: cover;
+        
+    } */
+
+
+    #hero .slide {
+        width: 500%;
+        height: 500px;
+     
+    }
+
+    #hero .slide input {
+        display: none;
+    }
+
+    #hero .st {
+        width: 20%;
+        transition: 2s;
+
        
       }
 
@@ -343,7 +368,7 @@
 
     .section-title h2 {
         font-size: 32px;
-        font-weight: bold;
+        font-weight: 800;
         text-transform: uppercase;
         margin-bottom: 20px;
         padding-bottom: 20px;
@@ -355,7 +380,7 @@
         color: #66c00b;
     }
 
-  
+
     /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
