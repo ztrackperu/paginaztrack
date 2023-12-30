@@ -31,6 +31,7 @@ var swiper = new Swiper(".mySwiper", {
    
     centeredSlides: true,
     loop:true,
+    effect: "fade",
     autoplay: {
       delay: 3500,
       disableOnInteraction: false,

@@ -276,6 +276,7 @@
 
     }
 
+    
 
 
     @media (max-width: 320px) {
@@ -510,6 +511,11 @@
 
     .front-card{
         margin-top: 30px;
+
+    }
+
+    .front-card h4{
+        font-weight: 600;
     }
 
      .back-card {
