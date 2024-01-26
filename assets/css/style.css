@@ -342,7 +342,7 @@
 
     @media (min-width :321px) and (max-width:767px) {
 
-         #hero .container2 .s1 {
+        #hero .container2 .s1 {
             padding: 0;
             background: url("../img/banner2/Ztrack_Foto1_30.jpg");
             background-size: cover;
@@ -350,9 +350,9 @@
             background-repeat: no-repeat;
             margin-left: -60px;
             height: 350px;
-        } 
+        }
 
-          #hero .container2 .s2 {
+        #hero .container2 .s2 {
             padding: 0;
             background: url("../img/banner2/ztrack_Foto2_30.jpg");
             background-size: cover;
@@ -360,7 +360,7 @@
             background-repeat: no-repeat;
             margin-left: -60px;
             height: 350px;
-        } 
+        }
 
         #hero .container2 .s3 {
             padding: 0;
@@ -370,7 +370,7 @@
             background-repeat: no-repeat;
             margin-left: -60px;
             height: 350px;
-        } 
+        }
 
         #hero .container2 .s4 {
             padding: 0;
@@ -380,7 +380,7 @@
             background-repeat: no-repeat;
             margin-left: -60px;
             height: 300px;
-        } 
+        }
 
     }
 
@@ -414,14 +414,14 @@
             height: 400px;
         }
 
-       #hero .container2 .s4 {
+        #hero .container2 .s4 {
             padding: 0;
             background: url("../img/banner2/Ztrack_Foto4_30.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             margin-top: 50px;
             height: 400px;
-        } 
+        }
 
     }
 
@@ -501,55 +501,63 @@
     }
 
     @media (max-width:320px) {
-       .section-title h2,.section-title span{
 
-        font-size: 40px;
-       } 
+        .section-title h2,
+        .section-title span {
 
-       .section-title .tam{
+            font-size: 40px;
+        }
 
-        font-size: 32px;
-       } 
+        .section-title .tam {
+
+            font-size: 32px;
+        }
     }
 
-    
+
     @media (min-width:321px) and (max-width:767px) {
-        .section-title h2,.section-title span{
+
+        .section-title h2,
+        .section-title span {
 
             font-size: 50px;
-           } 
-    
-           .section-title .tam{
-    
+        }
+
+        .section-title .tam {
+
             font-size: 40px;
-           } 
+        }
     }
 
     @media (min-width:768px) and (max-width:1023px) {
 
-        .section-title h2,.section-title span{
+        .section-title h2,
+        .section-title span {
 
             font-size: 60px;
-           } 
-    
-           .section-title .tam{
-    
+        }
+
+        .section-title .tam {
+
             font-size: 60px;
-           } 
+        }
 
     }
 
     @media (min-width:1024px) {
-        .section-title h2,.section-title span{
+
+        .section-title h2,
+        .section-title span {
 
             font-size: 65px;
-           } 
-    
-           .section-title .tam{
-    
+        }
+
+        .section-title .tam {
+
             font-size: 65px;
-           } 
+        }
     }
+
     /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
@@ -762,7 +770,7 @@
         }
 
         #beneficios .grid-element .img-beneficio img {
-            width: 80px;
+            width: 70px;
             height: 80px;
             margin-top: 15px;
             margin-bottom: 15px;
@@ -991,14 +999,12 @@
             height: 350px;
         }
 
-
-
     }
 
     @media (min-width:1024px) {
         #caracteristicas .content_card {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(295px, 2fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
             gap: 1.5rem;
         }
 
@@ -1208,49 +1214,6 @@
         width: 100%;
         box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
     }
-
-
-
-    .contact .info h4 {
-        padding: 0 0 0 60px;
-        font-size: 22px;
-        font-weight: 600;
-        margin-bottom: 5px;
-        color: #37517e;
-    }
-
-    .contact .info p {
-        padding: 0 0 10px 60px;
-        margin-bottom: 20px;
-        font-size: 14px;
-        color: #6182ba;
-    }
-
-    .contact .info .email p {
-        padding-top: 5px;
-    }
-
-    .contact .info .social-links {
-        padding-left: 60px;
-    }
-
-    .contact .info .social-links a {
-        font-size: 18px;
-        display: inline-block;
-        background: #333;
-        color: #fff;
-        line-height: 1;
-        padding: 8px 0;
-        border-radius: 50%;
-        text-align: center;
-        width: 36px;
-        height: 36px;
-        transition: 0.3s;
-        margin-right: 10px;
-    }
-
-
-
 
     .contact .php-email-form {
         width: 100%;
