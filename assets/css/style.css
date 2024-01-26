@@ -483,6 +483,7 @@
     .section-title {
         text-align: center;
         padding-bottom: 10px;
+
     }
 
     .section-title h2 {
@@ -499,7 +500,56 @@
         color: #66c00b;
     }
 
+    @media (max-width:320px) {
+       .section-title h2,.section-title span{
 
+        font-size: 40px;
+       } 
+
+       .section-title .tam{
+
+        font-size: 32px;
+       } 
+    }
+
+    
+    @media (min-width:321px) and (max-width:767px) {
+        .section-title h2,.section-title span{
+
+            font-size: 50px;
+           } 
+    
+           .section-title .tam{
+    
+            font-size: 40px;
+           } 
+    }
+
+    @media (min-width:768px) and (max-width:1023px) {
+
+        .section-title h2,.section-title span{
+
+            font-size: 60px;
+           } 
+    
+           .section-title .tam{
+    
+            font-size: 60px;
+           } 
+
+    }
+
+    @media (min-width:1024px) {
+        .section-title h2,.section-title span{
+
+            font-size: 65px;
+           } 
+    
+           .section-title .tam{
+    
+            font-size: 65px;
+           } 
+    }
     /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
